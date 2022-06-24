@@ -5,8 +5,7 @@ Appium project with 2 scenarios
 22 Steps (22 passed)
 0m31.685s
 
-
-
+```markdown
 Scenario: Successful Login               # src/test/java/features/01_login.feature:3
   When Tap skip                          # stepDefinitions.login.tap_skip()
   Given Tap Profil                       # stepDefinitions.login.tap_profile()
@@ -32,3 +31,4 @@ Scenario: Successful Order for One Item # src/test/java/features/02_order.featur
   And Tap Sepete Ekle                   # stepDefinitions.order.tap_sepete_ekle()
   And Tap Sepetime Git                  # stepDefinitions.order.tap_sepetime_git()
   And Tap ÖDEME ADIMINA GEÇ             # stepDefinitions.order.go_to_payment()
+```
